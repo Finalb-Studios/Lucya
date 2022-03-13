@@ -1,0 +1,4 @@
+Flask==2.0.0
+Flask_MySQLdb==1.0.1
+MySQL-python==1.2.5
+psutil==5.8.0
