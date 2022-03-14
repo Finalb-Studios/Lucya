@@ -10,6 +10,8 @@ app = Flask(__name__)
 
 # ====== SIMPLE APP CONFIG ======
 
+app_port = 80
+
 is_maintenance_mode = True
 
 # ===============================
@@ -353,4 +355,4 @@ def oldregister():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=app_port)
