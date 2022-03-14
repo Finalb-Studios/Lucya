@@ -21,12 +21,12 @@ is_maintenance_mode = True
 # ------- API CONFIG --------
 
 
-app.secret_key = 'cn9m89tyy3b789vryn0v9gybhm98vyc097tng'
+app.secret_key = 'cn9m89tyy3b789vryn0v9gybhm98vyc097tng' # highly encourage you to change this.
 
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'lucya'
+app.config['MYSQL_HOST'] = '' # mysql hostname ex: localhost or 293.423.562.52
+app.config['MYSQL_USER'] = '' # mysql login username
+app.config['MYSQL_PASSWORD'] = '' # mysql login password
+app.config['MYSQL_DB'] = '' # mysql database where its supposed be the tables you inserted before.
 
 # Intialize MySQL
 mysql = MySQL(app)
