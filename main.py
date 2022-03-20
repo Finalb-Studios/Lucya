@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 app_port = 80
 
-is_maintenance_mode = True
+is_maintenance_mode = False
 
 # ===============================
 
